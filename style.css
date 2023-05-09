@@ -1,0 +1,169 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(8, 250px),
+    
+ 
+}
+
+body{
+    margin: 0px;
+}
+
+.kuve{
+    display: flex;
+    grid-column: span 6;
+    background-color: #AFD3E2;
+    height: 40vh;
+    justify-content: center;
+    text-align: center;
+    color: #146C94;
+  
+}
+
+span{
+    font-family: 'Sacramento', cursive;
+    font-size: 5rem;
+    color: #146C94;
+}
+
+.pic9{
+    display: flex;
+    height: 30vh;
+    grid-column: span 6;
+    justify-content: center; 
+    padding-top: 50px; 
+}
+
+#kuve{
+    border-radius: 50%;
+}
+
+.intro{
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    text-align: center;
+ 
+}
+.skills{
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    height: 20vh;
+    font-weight: bold;
+}
+
+.dev{
+    display: flex;
+    grid-column: span 6;
+    justify-content: center;
+    font-size: larger;
+}
+.info{
+    display: flex;
+    grid-column: span 6;
+    justify-content: center;
+    text-align: justify;
+    font-size: larger;
+    padding: 10px;
+}
+
+
+.folder{
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+.project{
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
+
+.list{
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+    
+}
+.list ul{
+    list-style: none;
+    text-align: center;
+    padding-right: 40px;
+}
+.get{
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+}
+
+.story{
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+    font-size: large;
+}
+
+.contact{
+    grid-column: span 6;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+
+}
+
+
+.footer-li{
+    grid-column: span 6;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    
+
+}
+
+.footer{
+    padding-top: 50px;
+    display: flex;
+    grid-column: span 6;
+    justify-content: center;
+    background-color: #AFD3E2;
+}
+.footer p{
+    display: flex;
+    grid-column: span 6;
+    justify-content: center;
+}
+
+.subheading{
+    font-family: 'Montserrat', sans-serif;
+    color: #146C94;
+}
+
+button{
+    background-color: #AFD3E2;
+    border: 9px solid  #AFD3E2 ;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: larger;
+    color: #146C94;
+}
+
+@media (max-width: 680px){
+   .img{
+    display: none
+   }
+   .pic9{
+    padding-top: 50px;
+   }
+
+   
+
+}  
